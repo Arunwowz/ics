@@ -1,0 +1,48 @@
+.page-titlesection h1:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #00000099 !important;
+    z-index: -1 !important;
+}
+	.stickyheader .page-titlesection h1:after {
+    content: "" !important;
+		display:none !important;
+		background-color: transparent !important;
+}
+
+.slider {
+  width: 100%;  
+}
+.slick-center h3 {
+  font-size: 4vw;
+}
+.team_slide_section .slick-center {
+ transition: unset;
+  -webkit-transform: unset;
+  -moz-transform: unset;
+  transform: unset;
+}
+.slick-prev,
+.slick-next {
+  z-index: 100 !important;
+}
+.slick-prev:before {
+  transition: 0.2s ease-in-out;
+  color: #303030 !important;
+  font-size: 2vw !important;
+  margin-right: -10vw;
+}
+.slick-next:before {
+  transition: 0.2s ease-in-out;
+  color: #303030 !important;
+  font-size: 2vw !important;
+  margin-left: -10vw;
+}
+.slick-dots li button:before {
+  transition: 0.2s ease-in-out;
+  font-size: 0.7vw !important;
+}
